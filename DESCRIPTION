@@ -1,10 +1,27 @@
 Package: betterKUenm
 Title: Simple Package to Model Niches
 Version: 0.0.1
-Authors@R: 
-    person("Ben", "Wiens", , "bjwiens@ku.edu", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: asdflkjasdflknjasvlkjnasdvlkjadsnvljkasdvkjasdvlasdvjkasdl;kvnadsklvnadsl;kv
+Authors@R: c(
+    person("Ben", "", , "bjwiens@ku.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person("Weverton", "", , "", role = c("aut"),
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person("Eric", "", , "", role = c("aut"),
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person("Can", "", , "", role = c("aut"),
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person("Daniel", "", , "", role = c("aut"),
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person("Andres", "", , "", role = c("aut",),
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person("Luis", "", , "", role = c("aut",),
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    person("Marlon", "", , "", role = c("aut",),
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+    )
+Description: This is a simple package that is going to do something, but I don't know what that is. It is better than the kuenm package though. There are also other things that this package is going to do, and it is going to be great.
+Maintainer: Ben Wiens <bjwiens@ku.edu>
+Date: 2023-04-20
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

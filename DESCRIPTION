@@ -17,7 +17,7 @@ Authors@R: c(
     person("Luis", "A", ,"bjwiens@ku.edu", role = c("aut",),
            comment = c(ORCID = "YOUR-ORCID-ID")),
     person("Marlon", "A", ,"bjwiens@ku.edu", role = c("aut",),
-           comment = c(ORCID = "YOUR-ORCID-ID")),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
     )
 Description: This is a simple package that is going to do something, but I don't know what that is. 
     It is better than the kuenm package though. There are also other things that this package is going to do, 

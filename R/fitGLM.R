@@ -7,8 +7,6 @@
 #'
 #' @return fitGLM returns an object of class inheriting from "glm" which inherits from the class "lm".
 #' @export
-#'
-#' @examples
 
 fitGLM <- function(presences, background, w_presences = 1, w_backg = 1000){
 

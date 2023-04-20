@@ -2,7 +2,10 @@
 
 export(ext_back)
 export(f1)
+export(occ_prep)
+importFrom(terra,extract)
 export(projectionGLM)
 importFrom(terra,predict)
 importFrom(terra,as.data.frame)
 importFrom(terra,crop)
+

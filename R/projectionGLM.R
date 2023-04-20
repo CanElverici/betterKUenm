@@ -4,6 +4,7 @@
 #' @param new_data A SpatRaster file
 #'
 #' @return Projected raster
+#' @importFrom terra predict
 #' @export
 #'
 #' @examples

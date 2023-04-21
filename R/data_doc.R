@@ -15,7 +15,17 @@
 #' str(records)
 "records"
 
-
+#' Example of a glm model calibrated with records and variables
+#'
+#'
+#'
+#' @format glm object:
+#'
+#' @examples
+#' data("glm_model", package = "betterKUenm")
+#'
+#' summary(glm_model)
+"glm_model"
 
 #' Example of accessible areas for a species
 #'

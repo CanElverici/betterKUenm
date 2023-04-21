@@ -5,8 +5,8 @@
 #' @format data.frame:
 #' \describe{
 #'   \item{species}{species name, a code in this example}
-#'   \item{x}{longitude, longitude value}
-#'   \item{y}{latitude, latitude value}
+#'   \item{longitude}{longitude, longitude value}
+#'   \item{latitude}{latitude, latitude value}
 #' }
 #'
 #' @examples

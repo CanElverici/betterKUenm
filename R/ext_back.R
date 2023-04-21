@@ -10,6 +10,18 @@
 #' A dataframe containing the values extracted from variables
 #' @export
 #' @importFrom terra crop as.data.frame
+#' @examples
+#' # load data
+#' data("records", package = "betterKUenm")
+#' M <- terra::vect(system.file("extdata", "M.gpkg", package = "betterKUenm"))
+#' vars <- terra::rast(system.file("extdata", "variables.tif",
+#'                                 package = "betterKUenm"))
+#'
+#' # run function
+#' back <- ext_back(variables = vars,
+#'                  M = M,
+#'                  n = 1000)
+
 
 ext_back <- function(variables, M = NULL, n) {
   #If the user specify a calibration area

@@ -2,22 +2,22 @@ Package: betterKUenm
 Title: Simple Package to Model Niches
 Version: 0.0.1
 Authors@R: c(
-    person("Ben", "Wiens", ,"bjwiens@ku.edu", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID")),
-    person("Weverton", "A", ,"bjwiens@ku.edu", role = c("aut"),
-           comment = c(ORCID = "YOUR-ORCID-ID")),
-    person("Eric", "A", , "bjwiens@ku.edu", role = c("aut"),
-           comment = c(ORCID = "YOUR-ORCID-ID")),
-    person("Can", "A", , "bjwiens@ku.edu", role = c("aut"),
-           comment = c(ORCID = "YOUR-ORCID-ID")),
-    person("Daniel", "A", ,"bjwiens@ku.edu", role = c("aut"),
-           comment = c(ORCID = "YOUR-ORCID-ID")),
-    person("Andres", "A", ,"bjwiens@ku.edu", role = c("aut",),
-           comment = c(ORCID = "YOUR-ORCID-ID")),
-    person("Luis", "A", ,"bjwiens@ku.edu", role = c("aut",),
-           comment = c(ORCID = "YOUR-ORCID-ID")),
-    person("Marlon", "A", ,"bjwiens@ku.edu", role = c("aut",),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Ben", "Wiens", email = "bjwiens@ku.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-2611-1767")),
+    person("Weverton", "A", email = "bjwiens@ku.edu", role = "aut",
+           comment = c(ORCID = "0000-0002-2611-1767")),
+    person("Eric", "A", email = "bjwiens@ku.edu", role = "aut",
+           comment = c(ORCID = "0000-0002-2611-1767")),
+    person("Can", "A", email = "bjwiens@ku.edu", role = "aut",
+           comment = c(ORCID = "0000-0002-2611-1767")),
+    person("Daniel", "A", email = "bjwiens@ku.edu", role = "aut",
+           comment = c(ORCID = "0000-0002-2611-1767")),
+    person("Andres", "A", email = "bjwiens@ku.edu", role = "aut",
+           comment = c(ORCID = "0000-0002-2611-1767")),
+    person("Luis", "A", email = "bjwiens@ku.edu", role = "aut",
+           comment = c(ORCID = "0000-0002-2611-1767")),
+    person("Marlon", "A", email = "bjwiens@ku.edu", role = "aut",
+           comment = c(ORCID = "0000-0002-2611-1767"))
     )
 Description: This is a simple package that is going to do something, but I don't know what that is. 
     It is better than the kuenm package though. There are also other things that this package is going to do, 
@@ -30,3 +30,6 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 URL: https://github.com/omys-omics/betterKUenm
 BugReports: https://github.com/omys-omics/betterKUenm/issues
+Imports: 
+    stats,
+    terra

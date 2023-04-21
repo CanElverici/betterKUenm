@@ -7,6 +7,8 @@
 #'
 #' @return fitGLM returns an object of class inheriting from "glm" which inherits from the class "lm".
 #' @export
+#'
+#' @importFrom stats binomial glm
 
 fitGLM <- function(presences, background, w_presences = 1, w_backg = 1000){
 
@@ -20,10 +22,10 @@ fitGLM <- function(presences, background, w_presences = 1, w_backg = 1000){
   vweights <- ifelse(data$occ == 1, w_presences, w_backg)
 
   # fit glm
-  res <- glm(
+  res <- stats::glm(
     formula = occ ~ .,
     data = data,
-    family = binomial(link = "logit"),
+    family = stats::binomial(link = "logit"),
     weights = vweights
   )
 

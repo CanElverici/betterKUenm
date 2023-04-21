@@ -18,9 +18,11 @@ Lots and lots of details here.
 
 \section{Other functions (important helpers)}{
 
+We may not need this section
 }
 
 \section{Data included}{
 
+We need this one but not yet
 }
 

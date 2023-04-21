@@ -17,8 +17,3 @@ Projected raster
 \description{
 Project GLMs to Raster Variables
 }
-\examples{
-model <- glm(formula=pa~., data = v)
-new_data <- terra::rast("./ex/raster.tif")
-projectionGLM(model, new_data)
-}

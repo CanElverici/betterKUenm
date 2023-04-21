@@ -14,7 +14,7 @@
 ext_back <- function(variables, M = NULL, n) {
   #If the user specify a calibration area
   if(!is.null(M)) {
-    m.var <- terra::crop(variables, m, mask = TRUE)
+    m.var <- terra::crop(variables, M, mask = TRUE)
     df.var <- terra::as.data.frame(m.var)
     df.var <- df.var[sample(nrow(df.var), n), ] }
   #If the user does not specify a calibration area

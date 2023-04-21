@@ -13,8 +13,10 @@
 #' \code{\link{occ_prep}}, \code{\link{projectionGLM}}
 #'
 #' @section Other functions (important helpers):
+#' We may not need this section
 #'
 #' @section Data included:
+#' We need this one but not yet
 #'
 #' @docType package
 #' @name betterKUenm

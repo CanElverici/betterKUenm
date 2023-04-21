@@ -7,7 +7,7 @@
 #' @importFrom terra predict
 #' @export
 #'
-#' @example
+#' @examples
 #' # Loading data
 #' data("glm_model", package = "betterKUenm")
 #'

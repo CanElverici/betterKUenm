@@ -19,3 +19,15 @@ A dataframe containing the values extracted from variables
 \description{
 ext_back mask the environmental variables and extract the values of n cells at random
 }
+\examples{
+# load data
+data("records", package = "betterKUenm")
+M <- terra::vect(system.file("extdata", "M.gpkg", package = "betterKUenm"))
+vars <- terra::rast(system.file("extdata", "variables.tif",
+                                package = "betterKUenm"))
+
+# run function
+back <- ext_back(variables = vars,
+                 M = M,
+                 n = 1000)
+}

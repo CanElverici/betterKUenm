@@ -21,3 +21,17 @@ fitGLM returns an object of class inheriting from "glm" which inherits from the 
 \description{
 Fitting Generalized Linear Models for only presences data
 }
+\examples{
+### Loading data
+data("records", package = "betterKUenm")
+envar <- terra::rast(system.file("extdata", "variables.tif", package = "betterKUenm"))
+M <- terra::vect(system.file("extdata", "M.gpkg", package = "betterKUenm"))
+
+## Step 1: Get env information of the presences and background data
+occ_data <- occ_prep(data = records, lon = "longitude", lat = "latitude", variables = envar)
+bcg_data <- ext_back(variables = envar, M = M, n = 1000)
+
+## Step 2: Call GLM
+glm_model <- fitGLM(presences = occ_data, background = bcg_data)
+summary(glm_model)
+}

@@ -21,3 +21,12 @@ matrix
 \description{
 Title Extract variables in coordinates
 }
+\examples{
+#load the data
+data("records", package = "betterKUenm")
+vars <- terra::rast(system.file("extdata", "variables.tif",
+                                package = "betterKUenm"))
+
+#Implement the function
+anything <- occ_prep(data=records,lon ="longitude",lat = "latitude", variables = vars)
+}

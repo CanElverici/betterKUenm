@@ -17,3 +17,11 @@ Projected raster
 \description{
 Project GLMs to Raster Variables
 }
+\examples{
+# Loading data
+data("glm_model", package = "betterKUenm")
+
+variables <- terra::vect(system.file("extdata", "variables.tif", package = "betterKUenm"))
+# Run the function
+proj <- projectionGLM(model = glm_model, new_data = variables)
+}
